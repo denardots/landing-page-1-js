@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page con efecto Parallax">
+    <meta name="author" content="Denardo Taco Sánchez">
+    <title>Landing Page con efecto Parallax</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header container-width">
+      <img src="assets/images/logo.webp" alt="Logo" class="header__logo">
+      <nav id="headerNav" class="header__nav">
+        <ul class="header__nav__list">
+          <li><a href="#" class="header__nav__list__link">Productos</a></li>
+          <li><a href="#" class="header__nav__list__link">Soluciones</a></li>
+          <li><a href="#" class="header__nav__list__link">Blog</a></li>
+          <li><a href="#" class="header__nav__list__link">Compañía</a></li>
+          <li><a href="#" class="header__nav__list__link">Contactos</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="link primary-link header__link">Registrarse</a>
+      <img src="assets/images/icons/menu.svg" alt="Menú" id="headerIcon" class="header__icon">
+    </header>
+
+    <!-- Información -->
+    <main class="main container-width">
+      <section class="main__info">
+        <h1 class="main__info__title">Haz historia. No se limite a informar sobre ello.</h1>
+        <p class="main__info__text">Vaya más allá de informar sobre datos históricos. Utilice la inteligencia procesable de cada evento digital para impactar positivamente en los resultados comerciales. Continuamente. En tiempo real. A escala.</p>
+        <div class="main__info__buttons">
+          <a href="#" class="link primary-link">Registrarse</a>
+          <a href="#" class="link secondary-link">Leer más</a>
+        </div>
+      </section>
+      <video class="main__video" autoplay muted loop>
+        <source src="assets/video/video.webm" type="video/webm">
+        <source src="assets/video/video.mp4" type="video/mp4">
+      </video>
+    </main>
+
+    <!-- Banner -->
+    <aside class="banner container-width">
+      <figure class="banner__figure">
+        <img src="assets/images/heart.webp" alt="Corazón" id="iconHeart" class="banner__figure__img banner__figure__img--first">
+      </figure>
+      <figure class="banner__figure">
+        <img src="assets/images/fire.webp" alt="Fuego" id="iconFire" class="banner__figure__img banner__figure__img--second">
+      </figure>
+      <div class="banner__info">
+        <h2 class="banner__info__title">La pila moderna de inteligencia de datos en la nube para su negocio de misión crítica.</h2>
+        <a href="#" class="banner__info__link">Leer más</a>
+      </div>
+    </aside>
+
+    <!-- Extra -->
+    <div class="extra"></div>
+    <script src="js/script.js"></script>
+  </body>
+</html> 
