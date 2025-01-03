@@ -1,3 +1,5 @@
+"use strict";
+
 // Función que obtiene la posición del scroll y cambia la posición de las imágenes
 const moveImages = () => {
   // La propiedad scrollY nos permite obtener la posición actual del scroll
